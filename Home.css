@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, black,#fff);
+    background-attachment: fixed;
+    font-family: Verdana,sans-serif;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.topheader{
+    box-shadow: 4px 3px 5px 0px black;  
+    background-color: rgb(223, 75, 53);
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.logincontainer{
+    height: 400px;
+    width: 380px;
+    background-color:black;
+    /*box-shadow: 4px 3px 5px 0px grey; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+.logincredential{
+    margin-left: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-top:60px;
+
+}
+.loginheader{
+    border-left: 25px solid rgb(223, 75, 53);
+    height: 60px;
+}
+.loginheadertext{
+    font-size: 35px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.logincontainer input{
+    border-width: 0 0 2px;
+    border-color: dimgrey;
+    outline: 0;
+    background-color: black;
+    color: #fff;
+    width: 75%;
+    height: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.logincontainer button{
+    width: 75%;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(223, 75, 53);
+    padding: 12px;
+    border: 0px;
+}
+.forgotlinkslogin{
+    margin-top: 50px;
+}
+.forgotlinkslogin a{
+    color: rgb(223, 75, 53);
+    cursor: pointer;
+    font-size: 15px;
+}
+.forgotlinkslogin a:nth-child(1){
+    margin-right:20px;
+}
+

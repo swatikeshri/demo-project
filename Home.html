@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>CBA</title> 
+    </head>
+    <body>
+        <!--scripts-->
+        <script src="home.js"></script>
+        <!--stylesheet-->
+        <link rel="stylesheet"  href="Home.css">
+        <!--content-->
+        <div class="topcontainer">
+            <div class="topheader">
+                <div class="subheaderleft">
+                    <a href="#" onclick="iconClick()">CBA</a><span> | Login Page</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="logincontainer">
+                    <div class="loginheader">
+                        <div class="loginheadertext">LOG IN</div>
+                    </div>
+                    <div class="logincredential">
+                        <input type="text" placeholder="Username" id="username"/></br>
+                        <input type="password" placeholder="Password" id="password"/></br>
+                        <button onclick="logIn()">Log In</button>
+                        <div class="forgotlinkslogin">
+                            <a onclick="forgotPassword()">Forgot Password?</a>
+                            <a onclick="createAccount()">Create an account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
